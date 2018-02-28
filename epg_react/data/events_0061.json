@@ -1,0 +1,592 @@
+
+[
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F144150164,imi:001000000057B05C",
+        "channelId": "0061",
+        "title": "Nazi Megastructures",
+        "startTime": 1519776000,
+        "endTime": 1519779600,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F142896220",
+        "seriesName": "Himmler's SS",
+        "seasonNumber": 2,
+        "episodeNumber": 3,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F142896210",
+        "shortDescription": "Documentary series. The history of the SS, the elite soldiers led by Heinrich Himmler who were trained in terror and tasked with ensuring Hitler's safety.",
+        "longDescription": "Documentary series looking at the deadly weapons and constructions built by the Nazis. The history of the SS, the elite soldiers led by Heinrich Himmler who were trained in terror and tasked with ensuring Hitler's safety. They were the Nazis' deadliest human megastructure: created to oppress a state, build an empire and dominate the Third Reich, they ran the concentration camps, controlled Nazi Germany's police and internal security and constructed its most secretive installations.",
+        "directors": [
+            "Gary Johnstone"
+        ],
+        "countryOfOrigin": "GB",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/142896210.l.9824fd21fa7588bbaac13d89dd6b1364096af068.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/142896210.pl.160dd11b2cef875ed4c189f9ca603c50c52ff6ac.jpg",
+        "genres": [
+            "Documentary",
+            "War"
+        ],
+        "productionDate": "2014",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F50999805,imi:001000000057B05B",
+        "channelId": "0061",
+        "title": "Hard Time",
+        "startTime": 1519779600,
+        "endTime": 1519782600,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F49623873",
+        "seriesName": "Inmates vs Officers",
+        "seasonNumber": 4,
+        "episodeNumber": 11,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F33081514",
+        "shortDescription": "Documentary series. It may seem like 'anything goes' in Las Vegas, but for convicted criminals at Cook County, there is a heavy price to pay for breaking rules.",
+        "longDescription": "Documentary series. It may seem like 'anything goes' in Las Vegas, but for the convicted criminals inside Cook County, there is a heavy price to pay for breaking the rules.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/49623873.l.429245e09422db2e50b4a04eda10fc9c55d57c44.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/33081514.pl.3e9cb3bc16c4ddacda59da481a01d68c698cad17.jpg",
+        "genres": [
+            "Documentary"
+        ],
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F233223687,imi:001000000057B05A",
+        "channelId": "0061",
+        "title": "Wicked Tuna: North vs South",
+        "startTime": 1519782600,
+        "endTime": 1519785000,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F226271216",
+        "seriesName": "Luck Be a Tuna Tonight",
+        "seasonNumber": 3,
+        "episodeNumber": 10,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F179502290",
+        "shortDescription": "Reality series in which teams of fishermen compete to net the biggest catch. Each captain is desperate to bring in one last haul.",
+        "longDescription": "Reality series in which teams of fishermen compete to net the biggest catch, whilst trying to earn their living. Each captain is desperate to bring in one last haul.",
+        "countryOfOrigin": "GB",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/226271216.l.fbaf3c8da703b5e7d74bf386773e963cbe862137.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/226271216.pl.9a193fd8177a0353b35a116de6b71404b79be675.jpg",
+        "genres": [
+            "Documentary",
+            "Reality TV"
+        ],
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F48373423,imi:001000000057B059",
+        "channelId": "0061",
+        "title": "Seconds from Disaster",
+        "startTime": 1519785000,
+        "endTime": 1519787520,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F47774836",
+        "seriesName": "Terrified Over Tokyo",
+        "seasonNumber": 6,
+        "episodeNumber": 6,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F6408144",
+        "shortDescription": "A look at events leading up to the crash of Japan Airlines Flight 123, the deadliest single-aircraft accident in history. 520 people perished in the disaster.",
+        "longDescription": "Documentary series investigating natural and man-made disasters. A look at events leading up to the crash of Japan Airlines Flight 123, the deadliest single-aircraft accident in history. 520 people perished when the Boeing 747 crashed near Mount Osutaka.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/6408144.l.8dfd8f0a43ff4333d356e0bbaed986cbd49ee753.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/6408144.pl.a3f5016b7ef448a480422d1e93324afac673c94e.jpg",
+        "genres": [
+            "Documentary"
+        ],
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F20839811,imi:001000000057B058",
+        "channelId": "0061",
+        "title": "Mystery Files",
+        "startTime": 1519787520,
+        "endTime": 1519788600,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F20576231",
+        "seriesName": "Joan of Arc",
+        "seasonNumber": 1,
+        "episodeNumber": 13,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F20576229",
+        "shortDescription": "Documentary series focusing on some of the world's most famous and iconic mysteries. Here, Joan of Arc's life is re-examined. Was she a divine messenger or a witch?",
+        "longDescription": "Documentary series focusing on some of the world's most famous and iconic mysteries. Here, Joan of Arc's life is re-examined. Was she a divine messenger or a witch?",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/20576229.l.c2301b4540471ffa586d57980d63df94d3c4066c.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/20576229.pl.59cd62a0f680879e99e81dbc4803aaf4f9b0fc41.jpg",
+        "genres": [
+            "Documentary"
+        ],
+        "productionDate": "2009",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F144150164,imi:001000000057B054",
+        "channelId": "0061",
+        "title": "Nazi Megastructures",
+        "startTime": 1519788600,
+        "endTime": 1519791300,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F142896220",
+        "seriesName": "Himmler's SS",
+        "seasonNumber": 2,
+        "episodeNumber": 3,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F142896210",
+        "shortDescription": "Documentary series. The history of the SS, the elite soldiers led by Heinrich Himmler who were trained in terror and tasked with ensuring Hitler's safety.",
+        "longDescription": "Documentary series looking at the deadly weapons and constructions built by the Nazis. The history of the SS, the elite soldiers led by Heinrich Himmler who were trained in terror and tasked with ensuring Hitler's safety. They were the Nazis' deadliest human megastructure: created to oppress a state, build an empire and dominate the Third Reich, they ran the concentration camps, controlled Nazi Germany's police and internal security and constructed its most secretive installations.",
+        "directors": [
+            "Gary Johnstone"
+        ],
+        "countryOfOrigin": "GB",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/142896210.l.9824fd21fa7588bbaac13d89dd6b1364096af068.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/142896210.pl.160dd11b2cef875ed4c189f9ca603c50c52ff6ac.jpg",
+        "genres": [
+            "Documentary",
+            "War"
+        ],
+        "productionDate": "2014",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F47977368,imi:001000000057B057",
+        "channelId": "0061",
+        "title": "Nazi Temple of Doom",
+        "startTime": 1519791300,
+        "endTime": 1519794000,
+        "shortDescription": "The story of the secret SS headquarters that Himmler built using slave labour in the hope that it would become the Third Reich's 'pagan Vatican'.",
+        "longDescription": "The story of the secret SS headquarters that Himmler built using slave labour in the hope that it would become the Third Reich's 'pagan Vatican'.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/47977368.l.300ea99e2f8776ead9ef098a09b5c82bade8b0a7.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/47977368.p.3e1335e67413b2f7f9750cd68a11b002cb864c2d.jpg",
+        "genres": [
+            "Documentary",
+            "History"
+        ],
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F20576253,imi:001000000057DF6C",
+        "channelId": "0061",
+        "title": "Mystery Files",
+        "startTime": 1519794000,
+        "endTime": 1519795500,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F20576231",
+        "seriesName": "Rasputin",
+        "seasonNumber": 1,
+        "episodeNumber": 5,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F20576229",
+        "shortDescription": "Documentary series about the world's most famous mysteries. Scientists attempt to unravel the mystery of who really shot Grigori Rasputin in 1916.",
+        "longDescription": "Documentary series attempting to shed light on the world's most famous mysteries. Scientists re-investigate the official autopsy photographs and use advanced ballistic evidence to unravel the mystery of who really shot Grigori Rasputin, the self-styled mystic and confidant to Tsar Nicholas II.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/20576229.l.c2301b4540471ffa586d57980d63df94d3c4066c.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/20576229.pl.59cd62a0f680879e99e81dbc4803aaf4f9b0fc41.jpg",
+        "genres": [
+            "Documentary"
+        ],
+        "productionDate": "2009",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F188653680,imi:001000000057DF6B",
+        "channelId": "0061",
+        "title": "Ice Road Rescue",
+        "startTime": 1519795500,
+        "endTime": 1519798500,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F179579493",
+        "seriesName": "Fishy Business",
+        "seasonNumber": 1,
+        "episodeNumber": 8,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F221727761",
+        "shortDescription": "Reality series. Amid a heavy snowfall, Bjorn finds himself at the mercy of frozen petrol tanks and problematic reindeer. Elsewhere, a truck loses an axle.",
+        "longDescription": "Reality series. Amid a heavy snowfall, Bjorn finds himself at the mercy of frozen petrol tanks and problematic reindeer. Elsewhere, a truck loses an axle.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/179579493.l.ce9b10d5c046dafb2c47884b7c30a7aa69837f26.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/179579493.pl.36279497daa03d3b0c7002118e70e6fde001c477.jpg",
+        "genres": [
+            "Documentary",
+            "Reality TV"
+        ],
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F14883017,imi:001000000057DF6A",
+        "channelId": "0061",
+        "title": "Air Crash Investigation",
+        "startTime": 1519798500,
+        "endTime": 1519802100,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F14653721",
+        "seriesName": "Southern Storm",
+        "seasonNumber": 5,
+        "episodeNumber": 3,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F6408263",
+        "shortDescription": "Southern Airways Flight 242 is caught in a severe hailstorm, causing the McDonnell Douglas DC-9 plane to loose thrust and disastrously plummet to the ground.",
+        "longDescription": "Documentary series profiling flight disasters. Southern Airways Flight 242 is caught in a severe hailstorm, causing the McDonnell Douglas DC-9 plane to loose thrust and disastrously plummet to the ground.",
+        "countryOfOrigin": "CA",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/14653721.l.2b9bfe26e4c8c44e85cae9a05c60832b0b41e14f.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/14653721.pl.14bf26f25dd33a2b9256f0b22e33ca402372e6b4.jpg",
+        "genres": [
+            "Documentary"
+        ],
+        "productionDate": "2007",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F58023361,imi:001000000057DF69",
+        "channelId": "0061",
+        "title": "The Incredible Dr Pol",
+        "startTime": 1519802100,
+        "endTime": 1519805400,
+        "minimumAge": 9,
+        "replayTVMinAge": 9,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F49757834",
+        "seriesName": "What's Up, Doc?",
+        "seasonNumber": 2,
+        "episodeNumber": 15,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F49757830",
+        "shortDescription": "Series following renowned Michigan vet Dr Pol. Dr Pol performs an emergency Cesarean on a Beagle and gives life-saving treatment to a horse.",
+        "longDescription": "Series following renowned Michigan vet Dr Pol. Dr Pol performs an emergency Cesarean on a Beagle and gives life-saving treatment to a horse struck by the notorious West Nile virus. | Kijkwijzer: Take care with children under 9, programme contains fear.",
+        "countryOfOrigin": "US",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/49757834.l.7d32291ab4b22227a7803b4573d81624650f4774.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/49757834.p.92f7141aff063f6cae06317ea598260b2a1d0bd4.jpg",
+        "genres": [
+            "Documentary",
+            "Reality TV"
+        ],
+        "productionDate": "2011",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F109818434,imi:001000000057DF68",
+        "channelId": "0061",
+        "title": "Fish Tank Kings",
+        "startTime": 1519805400,
+        "endTime": 1519808700,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F95020153",
+        "seriesName": "Secret Crystal Cave Fish Palace",
+        "seasonNumber": 2,
+        "episodeNumber": 14,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F95020203",
+        "shortDescription": "Series following a team of custom aquarium specialists in Florida. The team agree to build a tank for a restaurant on the cutting edge of design.",
+        "longDescription": "Series following a team of custom aquarium specialists in Florida. The team agree to build a tank like no other for a restaurant on the cutting edge of design.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/95020153.l.daf7c2a84c3a19ebacf54c6bca5d07a244ee03ad.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/95020153.p.84838312e0ce9401d55811d509a3ed788cdbc29c.jpg",
+        "genres": [
+            "Documentary"
+        ],
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F261282369,imi:001000000057DF67",
+        "channelId": "0061",
+        "title": "Banged Up Abroad (Compilations)",
+        "startTime": 1519808700,
+        "endTime": 1519812000,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F258440947",
+        "seriesName": "Masters of Disguise",
+        "episodeNumber": 5,
+        "shortDescription": "The stories of how two camouflage kings, schoolteacher Howard and grocer Samuel, nearly got away with a life of dealing drugs.",
+        "longDescription": "The stories of how two camouflage kings, schoolteacher Howard and grocer Samuel, nearly got away with a life of dealing drugs.",
+        "countryOfOrigin": "US",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/258440947.l.768b015cb148363804d6ca09f17cfe623082b68f.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/258440947.p.4d686e8b3cd04d755176d1c6e112947ba397092a.jpg",
+        "genres": [
+            "Documentary"
+        ],
+        "productionDate": "2017",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F140863958,imi:001000000057DF66",
+        "channelId": "0061",
+        "title": "Remote Survival",
+        "startTime": 1519812000,
+        "endTime": 1519815600,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F140043656",
+        "seriesName": "Panic Button",
+        "episodeNumber": 3,
+        "shortDescription": "Documentary series. Detective Jason and actor Colby join forces to survive the arid wilderness of Utah's deserts.",
+        "longDescription": "Documentary series. Narcotics detective Jason and voice-over actor Colby join forces to survive the arid wilderness of Utah's deserts - but can they avoid a life-threatening case of heat stroke?",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/140043656.l.9d8755c5cacab404ede35f9071afbbbc08efab64.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/140043656.p.9a3bd4a936f4f6585dac3e52f6b1e1832a26efdc.jpg",
+        "genres": [
+            "Documentary"
+        ],
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F140853610,imi:001000000057DF65",
+        "channelId": "0061",
+        "title": "Ultimate Airport Dubai",
+        "startTime": 1519815600,
+        "endTime": 1519819200,
+        "minimumAge": 0,
+        "replayTVMinAge": 0,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F133895500",
+        "seriesName": "Cocaine Customs",
+        "seasonNumber": 2,
+        "episodeNumber": 8,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F133895496",
+        "shortDescription": "Reality series. Customs discover a passenger's shirts contain cocaine and missing luggage containers mean a flight leaves without half of its bags.",
+        "longDescription": "Reality series. Customs discover a passenger's shirts contain cocaine and missing luggage containers mean a flight leaves without half of its bags. | Kijkwijzer: All ages, programme contains coarse language.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/133895500.l.8331ba7462f9ac2a1a174767964baa0f74aca148.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/133895500.p.fc74eb6e3c0a8ffabe1490e5efa7acdbb33b2661.jpg",
+        "genres": [
+            "Documentary",
+            "Reality TV"
+        ],
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F229518065,imi:001000000057DF64",
+        "channelId": "0061",
+        "title": "Ice Road Rescue",
+        "startTime": 1519819200,
+        "endTime": 1519822800,
+        "minimumAge": 12,
+        "replayTVMinAge": 12,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F221727768",
+        "seriesName": "Deadly Drops",
+        "seasonNumber": 2,
+        "episodeNumber": 8,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F221727761",
+        "shortDescription": "Reality series following a team of salvage truckers. When winter arrives Norwegian mountain passes are like treacherous bobsleigh tracks.",
+        "longDescription": "Reality series following a team of salvage truckers as they seek to maintain order and safety on some of Norway's most hazardous roadways. Norwegian mountain passes are amongst the most dangerous in Europe, and when winter arrives they are like treacherous bobsleigh tracks. | Kijkwijzer: Take care with children under 12.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/221727768.l.5756d799e120bc0808b40c27e89899e8b849c5d5.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/221727768.p.b3b5c7b18c17d4f92780ec72c868a27aaaccb39b.jpg",
+        "genres": [
+            "Documentary",
+            "Reality TV"
+        ],
+        "productionDate": "2016",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F280816431,imi:001000000057DF63",
+        "channelId": "0061",
+        "title": "Wicked Tuna: North vs South",
+        "startTime": 1519822800,
+        "endTime": 1519826400,
+        "minimumAge": 0,
+        "replayTVMinAge": 0,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F271000729",
+        "seriesName": "Fighting Frenzy",
+        "seasonNumber": 4,
+        "episodeNumber": 1,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F179502290",
+        "shortDescription": "The new bluefin tuna season is open, signalling another chance for North Carolina's fishermen to cement their place at the top of the fleet.",
+        "longDescription": "The new bluefin tuna season is open, signalling another chance for North Carolina's fishermen to cement their place at the top of the fleet. | Kijkwijzer: All ages.",
+        "countryOfOrigin": "GB",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/271000729.l.3cbba62bb3ac66eb7c1dce57dd0e3bfc51a07180.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/271000729.p.0d60aff6cbbd854045b94cc2ce8e8362d46e5a1c.jpg",
+        "genres": [
+            "Documentary",
+            "Reality TV"
+        ],
+        "productionDate": "2017",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F726530251,imi:001000000058CC85",
+        "channelId": "0061",
+        "title": "Airport Security: Colombia",
+        "startTime": 1519826400,
+        "endTime": 1519830000,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs204422143",
+        "seasonNumber": 100000,
+        "episodeNumber": 726530251,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F204422143",
+        "shortDescription": "Documentary series charting the work of the anti-narcotics squad at El Dorado International Airport, Colombia.",
+        "longDescription": "Documentary series charting the work of the anti-narcotics squad at El Dorado International Airport, Colombia.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/204422143.l.35f776e6f40f70453c2638075d003af01efa8330.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/204422143.p.44cd4b23afc245bbe8409a18630e8450fa6cc394.jpg",
+        "genres": [
+            "Documentary",
+            "Reality TV"
+        ],
+        "productionDate": "2015",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F242070911,imi:001000000057DF61",
+        "channelId": "0061",
+        "title": "Air Crash Investigation",
+        "startTime": 1519830000,
+        "endTime": 1519833600,
+        "minimumAge": 0,
+        "replayTVMinAge": 0,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F245589060",
+        "seriesName": "Killer Attitude",
+        "seasonNumber": 17,
+        "episodeNumber": 1,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F6408263",
+        "shortDescription": "Documentary series. When Northwest Airlink Flight 5719 crashes, investigators uncover a troubling pattern of abuse that led to a breakdown in human cooperation.",
+        "longDescription": "Documentary series. When Northwest Airlink Flight 5719 crashes, investigators uncover a troubling pattern of abuse that led to a breakdown in human cooperation. | Kijkwijzer: All ages.",
+        "directors": [
+            "Tim Wolochatiuk"
+        ],
+        "countryOfOrigin": "CA",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/245589060.l.127b78766f270d0aba5a72280644bd822198925b.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/245589060.p.f4c87b3304d97013127cae2e402410439fc108d2.jpg",
+        "genres": [
+            "Documentary"
+        ],
+        "productionDate": "2017",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F200492453,imi:001000000057DF60",
+        "channelId": "0061",
+        "title": "Air Crash Investigation",
+        "startTime": 1519833600,
+        "endTime": 1519837200,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F198831659",
+        "seriesName": "Edge of Disaster",
+        "seasonNumber": 15,
+        "episodeNumber": 6,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F6408263",
+        "shortDescription": "Documentary series. Atlantic Airways Flight 670 killed four people when, in 2006, the vehicle careered off the runway on a Norwegian island.",
+        "longDescription": "Documentary series. Atlantic Airways Flight 670 killed four people when, in 2006, the vehicle careered off the runway on a Norwegian island.",
+        "directors": [
+            "Tim Wolochatiuk"
+        ],
+        "countryOfOrigin": "CA",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/6408263.l.9dcd0f87a6d4e2e35351ab7342a4efd181d17ae2.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/6408263.p.47a9e41f40bc25c0a1467458c3d7566bd9e440a8.jpg",
+        "genres": [
+            "Documentary"
+        ],
+        "productionDate": "2015",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F211437666,imi:001000000057DF5F",
+        "channelId": "0061",
+        "title": "The Incredible Dr Pol",
+        "startTime": 1519837200,
+        "endTime": 1519840800,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F175043848",
+        "seriesName": "The Color Purr-Pol",
+        "seasonNumber": 5,
+        "episodeNumber": 15,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F49757830",
+        "shortDescription": "Dr Pol is colour blind, so when Charles hears of a new technological breakthrough, he decides it's time to give his dad the gift of colour.",
+        "longDescription": "Dr Pol is colour blind, so when Charles hears of a new technological breakthrough, he decides it's time to give his dad the gift of colour.",
+        "countryOfOrigin": "US",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/175043848.l.33d5409b351f7cddc206924239de307048dc9bd0.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/175043848.p.be91f14faedaca42530c50e1fb6bd1a66e863e92.jpg",
+        "genres": [
+            "Documentary"
+        ],
+        "productionDate": "2015",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F139205190,imi:001000000057DF5E",
+        "channelId": "0061",
+        "title": "The Incredible Dr Pol",
+        "startTime": 1519840800,
+        "endTime": 1519844400,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F134439941",
+        "seriesName": "Wonder Horse",
+        "seasonNumber": 4,
+        "episodeNumber": 6,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F49757830",
+        "shortDescription": "Documentary series. Charles is busy making arrangements for a father-son camping trip. Dr. Pol and Dr. Brenda deal with an onslaught of cases in the clinic.",
+        "longDescription": "Documentary series. Charles is busy making arrangements for a father-son camping trip. Dr. Pol and Dr. Brenda deal with an onslaught of cases in the clinic.",
+        "countryOfOrigin": "US",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/49757830.l.912dc4df0a8d8016703ef9380abd1ac0f825e55d.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/49757830.p.27b408454c2117cd76068a34008f51c5f840442c.jpg",
+        "genres": [
+            "Documentary"
+        ],
+        "productionDate": "2013",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F50021078,imi:001000000057DF5D",
+        "channelId": "0061",
+        "title": "Ultimate Animal Countdown",
+        "startTime": 1519844400,
+        "endTime": 1519848000,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F48628140",
+        "seriesName": "Survivors",
+        "episodeNumber": 9,
+        "shortDescription": "The ultimate search for the most amazing animals on the planet. A look at creatures who can cope deadly dehydration, frostbite and famine.",
+        "longDescription": "The ultimate search for the most amazing animals on the planet. A look at the creatures who can cope with the deadly dehydration of desert storms, and the frostbite and famine of the frozen north.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/48628140.l.a85d941caa3755b738a566601f380559b90b9b71.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/48628140.p.d2b46a027f92db3d1c0dafefafcb62737ff25937.jpg",
+        "genres": [
+            "Documentary"
+        ],
+        "productionDate": "2013",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F45538452,imi:001000000057DF5C",
+        "channelId": "0061",
+        "title": "Untamed Americas",
+        "startTime": 1519848000,
+        "endTime": 1519851600,
+        "minimumAge": 12,
+        "replayTVMinAge": 12,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F44867275",
+        "seriesName": "Forests",
+        "episodeNumber": 4,
+        "shortDescription": "Documentary series. From the tropical rainforests of the Amazon to the forests in the far north, experience the greatest variety of woodlands in the world.",
+        "longDescription": "Documentary series. From the tropical rainforests of the Amazon to the forests in the far north, experience the greatest variety of woodlands in the world. | Kijkwijzer: Take care with children under 12, programme contains fear.",
+        "countryOfOrigin": "US",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/44867275.l.4d764afdc585b21d4f4500a069a0f007996129c0.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/44867275.p.112eaee03ae956c3843323a1206dd0bb7a6c0df1.jpg",
+        "genres": [
+            "Documentary",
+            "Natural World"
+        ],
+        "productionDate": "2011",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F209417744,imi:001000000057DF5B",
+        "channelId": "0061",
+        "title": "Europe's Great Wilderness",
+        "startTime": 1519851600,
+        "endTime": 1519855200,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F208155680",
+        "seriesName": "Europe's Living Waters",
+        "episodeNumber": 3,
+        "shortDescription": "The series concludes with a look at the incredible array of wildlife living along Europe's coastlines, as well as in its lakes, streams and wetlands.",
+        "longDescription": "The series concludes with a look at the incredible array of wildlife living along Europe's coastlines, as well as in its lakes, streams and wetlands.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/208155680.l.f9048f51974639fd9e87ba256ed38fe3e04c744b.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/208155680.p.1525dcdb966a3461cc6372688000b0460da5299d.jpg",
+        "genres": [
+            "Documentary",
+            "Natural World"
+        ],
+        "productionDate": "2016",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F164862277,imi:001000000057DF5A",
+        "channelId": "0061",
+        "title": "Drugs Inc.",
+        "startTime": 1519855200,
+        "endTime": 1519858800,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F139390949",
+        "seriesName": "Cartel Chaos",
+        "seasonNumber": 6,
+        "episodeNumber": 13,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F38747679",
+        "shortDescription": "Documentary series. Cartels hold a key position in the drug hierarchy. Some are quick to make financial gains, while others have to fight for what they can get.",
+        "longDescription": "Documentary series. Big or small, cartels hold a key position in the drug hierarchy. Some are quick to make financial gains, while others have to fight tooth and claw for what scraps they can find.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/139390949.l.e1b08fa17bd971e1089f69d4355e838903113ec0.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/139390949.p.010e866febeffd1c06a09ecbc981dcb60c0cf3e2.jpg",
+        "genres": [
+            "Documentary"
+        ],
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F201016647,imi:001000000057DF59",
+        "channelId": "0061",
+        "title": "Snakes in the City",
+        "startTime": 1519858800,
+        "endTime": 1519862400,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F200247195",
+        "seriesName": "Mamba in My Closet!",
+        "seasonNumber": 2,
+        "episodeNumber": 1,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F200246610",
+        "shortDescription": "Series following snake-catcher Simon Keys. Simon and Siouxsie hunt for a deadly black mamba that is hiding in a house.",
+        "longDescription": "Series following snake-catcher Simon Keys. Simon and Siouxsie hunt for a deadly black mamba that is hiding in a house, and a cobra also causes them problems when it flees up a tree.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/201016647.l.a1633fbfe265907cac18c9ba19c271dc260b425b.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/200247195.p.e827eb929eea4758cd0b56ad7891862eb34f268c.jpg",
+        "genres": [
+            "Documentary"
+        ],
+        "resolution": "HD"
+    }
+]

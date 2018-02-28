@@ -1,0 +1,1050 @@
+[
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281583294,imi:00100000005A4CE6",
+        "channelId": "0063",
+        "title": "Jinek",
+        "startTime": 1519773300,
+        "endTime": 1519776900,
+        "minimumAge": 0,
+        "replayTVMinAge": 0,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs95348481",
+        "episodeNumber": 281583294,
+        "shortDescription": "Talkshow. With a mix of human interest and discussions about current affairs.",
+        "longDescription": "Talkshow. With a mix of human interest and discussions about current affairs. | Kijkwijzer: All ages.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/95348481.l.79eedcc03898761f9ba857b746a6a8533f070f7c.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/95348481.p.949601411ae580ba050f7cf595aa59436c755b53.jpg",
+        "genres": [
+            "Talk Show"
+        ],
+        "productionDate": "2017",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908746,imi:00100000005A4CE5",
+        "channelId": "0063",
+        "title": "EenVandaag",
+        "startTime": 1519776900,
+        "endTime": 1519779000,
+        "replayTVMinAge": 0,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36652653",
+        "episodeNumber": 279908746,
+        "shortDescription": "Current affairs programme, presented by Bas van Werven, Pieter Jan Hagens and Suzanne Bosman.",
+        "longDescription": "Current affairs programme, presented by Bas van Werven, Pieter Jan Hagens and Suzanne Bosman.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652653.l.9ba0a4fd9577273d06ab31c98f6738770e0076a6.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652653.p.4407dcc007256915ec809f6e6a89ce084cb2137c.jpg",
+        "genres": [
+            "Current Affairs"
+        ],
+        "productionDate": "2018",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908743,imi:00100000005A4CE4",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519779000,
+        "endTime": 1519779600,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36652793",
+        "episodeNumber": 279908743,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652793.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652793.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281336569,imi:00100000005A4CE3",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519779600,
+        "endTime": 1519793700,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36256955",
+        "episodeNumber": 281336569,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36256955.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36256955.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ],
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281576712,imi:00100000005A4CE2",
+        "channelId": "0063",
+        "title": "Nederland in beweging",
+        "startTime": 1519793700,
+        "endTime": 1519794600,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F275833312",
+        "episodeNumber": 42,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F37394960",
+        "shortDescription": "Morning exercises. Simple exercises and tips for a healthy lifestyle.",
+        "longDescription": "Morning exercises. Simple exercises and tips for a healthy lifestyle.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/275833312.l.91904aaac010fe27bcb318236c397c5f6fab2ca2.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/37394960.pl.b936e83562ec7581920f1ec649383543e08dd146.jpg",
+        "genres": [
+            "Health"
+        ],
+        "productionDate": "2018",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281577416,imi:00100000005A864B",
+        "channelId": "0063",
+        "title": "MAX Geheugentrainer",
+        "startTime": 1519794600,
+        "endTime": 1519795800,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F275833774",
+        "episodeNumber": 42,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F37395678",
+        "shortDescription": "Daily gameshow helping to keep your brain in top condition.",
+        "longDescription": "Daily gameshow helping to keep your brain in top condition.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/275833774.l.225dafb0b19a95cdd62befb391eec95a2fc3d6b8.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/275833774.pl.d85273d262ff0c3fc03270365fe2d739f38a3ded.jpg",
+        "genres": [
+            "Game Show"
+        ],
+        "productionDate": "2018",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F277633153,imi:00100000005A864A",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519795800,
+        "endTime": 1519796100,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs92016397",
+        "episodeNumber": 277633153,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/92016397.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/92016397.pl.04c6cdd578f44e6ac4ce775ab27f410febae2e6a.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F277633153,imi:00100000005A8649",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519796100,
+        "endTime": 1519796400,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs92016397",
+        "episodeNumber": 277633153,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/92016397.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/92016397.pl.04c6cdd578f44e6ac4ce775ab27f410febae2e6a.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F277633153,imi:00100000005A8648",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519796400,
+        "endTime": 1519796700,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs92016397",
+        "episodeNumber": 277633153,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/92016397.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/92016397.pl.04c6cdd578f44e6ac4ce775ab27f410febae2e6a.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F277633153,imi:00100000005A8647",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519796700,
+        "endTime": 1519797000,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs92016397",
+        "episodeNumber": 277633153,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/92016397.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/92016397.pl.04c6cdd578f44e6ac4ce775ab27f410febae2e6a.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F277633153,imi:00100000005A8646",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519797000,
+        "endTime": 1519797600,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs92016397",
+        "episodeNumber": 277633153,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/92016397.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/92016397.pl.04c6cdd578f44e6ac4ce775ab27f410febae2e6a.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281364364,imi:00100000005A5D86",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519797600,
+        "endTime": 1519798200,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36260036",
+        "episodeNumber": 281364364,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36260036.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36260036.pl.04c6cdd578f44e6ac4ce775ab27f410febae2e6a.jpg",
+        "genres": [
+            "News"
+        ],
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908950,imi:00100000005A5D85",
+        "channelId": "0063",
+        "title": "Goedemorgen Nederland",
+        "startTime": 1519798200,
+        "endTime": 1519799400,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36654417",
+        "episodeNumber": 279908950,
+        "shortDescription": "Morning magazine programme, live from Hilversum. Start your day with a combination of news, sport and entertainment.",
+        "longDescription": "Morning magazine programme, live from Hilversum. Start your day with a combination of news, sport and entertainment.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36654417.l.edb98b3a7acae20a683276cd4b7675f34bb8fe9e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36654417.pl.2c1798e95efc4594123f9dbf14c1a4589da121f0.jpg",
+        "genres": [
+            "News",
+            "Magazine"
+        ],
+        "productionDate": "2015",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281364575,imi:00100000005A5D84",
+        "channelId": "0063",
+        "title": "NOS Journaal (Ned2) - 07:30",
+        "startTime": 1519799400,
+        "endTime": 1519799700,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs46712614",
+        "episodeNumber": 281364575,
+        "shortDescription": "The latest national and international news from NOS.",
+        "longDescription": "The latest national and international news from NOS.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/46712614.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/46712614.pl.04c6cdd578f44e6ac4ce775ab27f410febae2e6a.jpg",
+        "genres": [
+            "News"
+        ],
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908950,imi:00100000005A5D83",
+        "channelId": "0063",
+        "title": "Goedemorgen Nederland",
+        "startTime": 1519799700,
+        "endTime": 1519801200,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36654417",
+        "episodeNumber": 279908950,
+        "shortDescription": "Morning magazine programme, live from Hilversum. Start your day with a combination of news, sport and entertainment.",
+        "longDescription": "Morning magazine programme, live from Hilversum. Start your day with a combination of news, sport and entertainment.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36654417.l.edb98b3a7acae20a683276cd4b7675f34bb8fe9e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36654417.pl.2c1798e95efc4594123f9dbf14c1a4589da121f0.jpg",
+        "genres": [
+            "News",
+            "Magazine"
+        ],
+        "productionDate": "2015",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281563286,imi:00100000005A5D82",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519801200,
+        "endTime": 1519801800,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36264064",
+        "episodeNumber": 281563286,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36264064.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36264064.pl.04c6cdd578f44e6ac4ce775ab27f410febae2e6a.jpg",
+        "genres": [
+            "News"
+        ],
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908950,imi:00100000005A5D81",
+        "channelId": "0063",
+        "title": "Goedemorgen Nederland",
+        "startTime": 1519801800,
+        "endTime": 1519803000,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36654417",
+        "episodeNumber": 279908950,
+        "shortDescription": "Morning magazine programme, live from Hilversum. Start your day with a combination of news, sport and entertainment.",
+        "longDescription": "Morning magazine programme, live from Hilversum. Start your day with a combination of news, sport and entertainment.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36654417.l.edb98b3a7acae20a683276cd4b7675f34bb8fe9e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36654417.pl.2c1798e95efc4594123f9dbf14c1a4589da121f0.jpg",
+        "genres": [
+            "News",
+            "Magazine"
+        ],
+        "productionDate": "2015",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279411197,imi:00100000005A5D80",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519803000,
+        "endTime": 1519803600,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36264064",
+        "episodeNumber": 279411197,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36264064.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36264064.pl.04c6cdd578f44e6ac4ce775ab27f410febae2e6a.jpg",
+        "genres": [
+            "News"
+        ],
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908950,imi:00100000005A5D7F",
+        "channelId": "0063",
+        "title": "Goedemorgen Nederland",
+        "startTime": 1519803600,
+        "endTime": 1519804800,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36654417",
+        "episodeNumber": 279908950,
+        "shortDescription": "Morning magazine programme, live from Hilversum. Start your day with a combination of news, sport and entertainment.",
+        "longDescription": "Morning magazine programme, live from Hilversum. Start your day with a combination of news, sport and entertainment.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36654417.l.edb98b3a7acae20a683276cd4b7675f34bb8fe9e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36654417.pl.2c1798e95efc4594123f9dbf14c1a4589da121f0.jpg",
+        "genres": [
+            "News",
+            "Magazine"
+        ],
+        "productionDate": "2015",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281364364,imi:00100000005A5D7E",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519804800,
+        "endTime": 1519805700,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36260036",
+        "episodeNumber": 281364364,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36260036.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36260036.pl.04c6cdd578f44e6ac4ce775ab27f410febae2e6a.jpg",
+        "genres": [
+            "News"
+        ],
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281585785,imi:00100000005A5D7D",
+        "channelId": "0063",
+        "title": "Nederland in beweging",
+        "startTime": 1519805700,
+        "endTime": 1519806600,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F275833312",
+        "episodeNumber": 43,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F37394960",
+        "shortDescription": "Morning exercises. Simple exercises and tips for a healthy lifestyle.",
+        "longDescription": "Morning exercises. Simple exercises and tips for a healthy lifestyle.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/275833312.l.91904aaac010fe27bcb318236c397c5f6fab2ca2.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/37394960.pl.b936e83562ec7581920f1ec649383543e08dd146.jpg",
+        "genres": [
+            "Health"
+        ],
+        "productionDate": "2018",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281364364,imi:00100000005A5D7C",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519806600,
+        "endTime": 1519807200,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36260036",
+        "episodeNumber": 281364364,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36260036.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36260036.pl.04c6cdd578f44e6ac4ce775ab27f410febae2e6a.jpg",
+        "genres": [
+            "News"
+        ],
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281585872,imi:00100000005A5D7B",
+        "channelId": "0063",
+        "title": "MAX Geheugentrainer",
+        "startTime": 1519807200,
+        "endTime": 1519808400,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F275833774",
+        "episodeNumber": 43,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F37395678",
+        "shortDescription": "Daily gameshow helping to keep your brain in top condition.",
+        "longDescription": "Daily gameshow helping to keep your brain in top condition.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/275833774.l.225dafb0b19a95cdd62befb391eec95a2fc3d6b8.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/275833774.pl.d85273d262ff0c3fc03270365fe2d739f38a3ded.jpg",
+        "genres": [
+            "Game Show"
+        ],
+        "productionDate": "2018",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281572774,imi:00100000005A5D7A",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519808400,
+        "endTime": 1519809300,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36260036",
+        "episodeNumber": 281572774,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36260036.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36260036.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ]
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281587182,imi:00100000005A5D79",
+        "channelId": "0063",
+        "title": "Kook mee met MAX",
+        "startTime": 1519809300,
+        "endTime": 1519809900,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F275840113",
+        "seriesName": "Vegetarische Shepherd's pie met linzen en zoete aardappel",
+        "seasonNumber": 2,
+        "episodeNumber": 42,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F275840103",
+        "shortDescription": "Daily cookery programme with Sandra Ysbrandy and Mounir Toub.",
+        "longDescription": "Daily cookery programme with Sandra Ysbrandy and Mounir Toub.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/275840103.l.f76d7a45bb3099e3fae33472cce3c6ca1c2120f0.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/275840103.p.6f50454f4b3801a76a789ff6da653832d5c514c9.jpg",
+        "genres": [
+            "Cookery"
+        ],
+        "productionDate": "2017"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281572774,imi:00100000005A5D78",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519809900,
+        "endTime": 1519810800,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36260036",
+        "episodeNumber": 281572774,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36260036.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36260036.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ]
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281572774,imi:00100000005A5D77",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519810800,
+        "endTime": 1519812000,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36260036",
+        "episodeNumber": 281572774,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36260036.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36260036.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ]
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281584749,imi:00100000005A5D76",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519812000,
+        "endTime": 1519812900,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36260036",
+        "episodeNumber": 281584749,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36260036.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36260036.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908760,imi:00100000005A5D75",
+        "channelId": "0063",
+        "title": "Tijd voor MAX",
+        "startTime": 1519812900,
+        "endTime": 1519815600,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs37395234",
+        "seasonNumber": 100000,
+        "episodeNumber": 279908760,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F37395234",
+        "shortDescription": "Daily magazine bringing an eclectic mix of information, news, current affairs, art and entertainment.",
+        "longDescription": "Daily magazine bringing an eclectic mix of information, news, current affairs, art and entertainment.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/37395234.l.2df8649f17acb0b0530f619a9ed7cd16ffc3bbd6.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/37395234.p.04e796453ff864d41b254757e429b9cf8ccd761c.jpg",
+        "genres": [
+            "Documentary"
+        ],
+        "productionDate": "2016"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908918,imi:00100000005A5D74",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519815600,
+        "endTime": 1519816800,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36653775",
+        "episodeNumber": 279908918,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36653775.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36653775.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908918,imi:00100000005A5D73",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519816800,
+        "endTime": 1519817700,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36653775",
+        "episodeNumber": 279908918,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36653775.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36653775.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018",
+        "resolution": "HD"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908918,imi:00100000005A5D72",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519817700,
+        "endTime": 1519819200,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36653775",
+        "episodeNumber": 279908918,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36653775.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36653775.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908915,imi:00100000005A5D71",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519819200,
+        "endTime": 1519820400,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36652625",
+        "episodeNumber": 279908915,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652625.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652625.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908915,imi:00100000005A5D6F",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519820400,
+        "endTime": 1519821300,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36652625",
+        "episodeNumber": 279908915,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652625.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652625.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908915,imi:00100000005A5D6D",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519821300,
+        "endTime": 1519822800,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36652625",
+        "episodeNumber": 279908915,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652625.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652625.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F275922283,imi:00100000005A5D6B",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519822800,
+        "endTime": 1519823700,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36652793",
+        "episodeNumber": 275922283,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652793.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652793.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281587182,imi:00100000005A8645",
+        "channelId": "0063",
+        "title": "Kook mee met MAX",
+        "startTime": 1519823700,
+        "endTime": 1519824600,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F275840113",
+        "seriesName": "Vegetarische Shepherd's pie met linzen en zoete aardappel",
+        "seasonNumber": 2,
+        "episodeNumber": 42,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F275840103",
+        "shortDescription": "Daily cookery programme with Sandra Ysbrandy and Mounir Toub.",
+        "longDescription": "Daily cookery programme with Sandra Ysbrandy and Mounir Toub.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/275840103.l.f76d7a45bb3099e3fae33472cce3c6ca1c2120f0.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/275840103.p.6f50454f4b3801a76a789ff6da653832d5c514c9.jpg",
+        "genres": [
+            "Cookery"
+        ],
+        "productionDate": "2017"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F275922283,imi:00100000005A8644",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519824600,
+        "endTime": 1519825200,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36652793",
+        "episodeNumber": 275922283,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652793.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652793.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F275922283,imi:00100000005A8643",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519825200,
+        "endTime": 1519826400,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36652793",
+        "episodeNumber": 275922283,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652793.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652793.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908909,imi:00100000005A8642",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519826400,
+        "endTime": 1519827900,
+        "replayTVMinAge": 0,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs92882079",
+        "episodeNumber": 279908909,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/92882079.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/92882079.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281583294,imi:00100000005A8641",
+        "channelId": "0063",
+        "title": "Jinek",
+        "startTime": 1519827900,
+        "endTime": 1519831500,
+        "minimumAge": 0,
+        "replayTVMinAge": 0,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs95348481",
+        "episodeNumber": 281583294,
+        "shortDescription": "Talkshow. With a mix of human interest and discussions about current affairs.",
+        "longDescription": "Talkshow. With a mix of human interest and discussions about current affairs. | Kijkwijzer: All ages.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/95348481.l.79eedcc03898761f9ba857b746a6a8533f070f7c.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/95348481.p.949601411ae580ba050f7cf595aa59436c755b53.jpg",
+        "genres": [
+            "Talk Show"
+        ],
+        "productionDate": "2017"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F729533824,imi:00100000005A8640",
+        "channelId": "0063",
+        "title": "Sterren.nl",
+        "startTime": 1519831500,
+        "endTime": 1519833600,
+        "replayTVMinAge": 0,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs47083881",
+        "episodeNumber": 729533824,
+        "shortDescription": "Music programme focussing on the work of Dutch recording artists.",
+        "longDescription": "Music programme focussing on the work of Dutch recording artists.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/47083881.l.3f2c14362b16436e27bd281d71bafe34a7fafcff.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/47083881.p.d8c9a84743cff704c535d6dce6ab1026feaf5640.jpg",
+        "genres": [
+            "Music & Arts"
+        ],
+        "productionDate": "2016"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908903,imi:00100000005A863F",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519833600,
+        "endTime": 1519834200,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs114159621",
+        "episodeNumber": 279908903,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/114159621.l.bf8b37f59e92272f1a21a1f9f98897112ccfc2f2.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/114159621.p.285017506dd726396920ebfeb5a7377c95a81c89.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908900,imi:00100000005A863E",
+        "channelId": "0063",
+        "title": "Tijd voor MAX",
+        "startTime": 1519834200,
+        "endTime": 1519836900,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs37395234",
+        "seasonNumber": 100000,
+        "episodeNumber": 279908900,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F37395234",
+        "shortDescription": "Daily magazine bringing an eclectic mix of information, news, current affairs, art and entertainment.",
+        "longDescription": "Daily magazine bringing an eclectic mix of information, news, current affairs, art and entertainment.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/37395234.l.2df8649f17acb0b0530f619a9ed7cd16ffc3bbd6.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/37395234.p.04e796453ff864d41b254757e429b9cf8ccd761c.jpg",
+        "genres": [
+            "Documentary"
+        ],
+        "productionDate": "2016"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F729969168,imi:00100000005AC8E2",
+        "channelId": "0063",
+        "title": "Politieke partijen",
+        "startTime": 1519836900,
+        "endTime": 1519837200,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs38301304",
+        "episodeNumber": 729969168,
+        "hasReplayTV": false,
+        "shortDescription": "Political broadcast by the Party for Animals.",
+        "longDescription": "Political broadcast by the Party for Animals.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/38301304.l.d37ad2be2821b06f30076c5ad1b4eb8c9a9e14a2.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/38301304.p.357d32db0d5753a0f924149e6bd3bace12208cf6.jpg",
+        "genres": [
+            "Current Affairs",
+            "Politics"
+        ],
+        "productionDate": "2016"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908918,imi:00100000005A863C",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519837200,
+        "endTime": 1519838100,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36653775",
+        "episodeNumber": 279908918,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36653775.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36653775.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908884,imi:00100000005A863B",
+        "channelId": "0063",
+        "title": "EenVandaag",
+        "startTime": 1519838100,
+        "endTime": 1519839900,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36652653",
+        "episodeNumber": 279908884,
+        "shortDescription": "Current affairs programme, presented by Bas van Werven, Pieter Jan Hagens and Suzanne Bosman.",
+        "longDescription": "Current affairs programme, presented by Bas van Werven, Pieter Jan Hagens and Suzanne Bosman.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652653.l.9ba0a4fd9577273d06ab31c98f6738770e0076a6.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652653.p.4407dcc007256915ec809f6e6a89ce084cb2137c.jpg",
+        "genres": [
+            "Current Affairs"
+        ],
+        "productionDate": "2018"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F279908890,imi:00100000005A863A",
+        "channelId": "0063",
+        "title": "NOS Sportjournaal",
+        "startTime": 1519839900,
+        "endTime": 1519840800,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs37520411",
+        "episodeNumber": 279908890,
+        "shortDescription": "The latest national and international sports news.",
+        "longDescription": "The latest national and international sports news.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/37520411.l.94b307db03da989dad1572e2be90e2d0271d7cc6.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/37520411.p.cc44598ccdb634d19c1b5f282f05d476c0370bf9.jpg",
+        "genres": [
+            "Sport"
+        ],
+        "productionDate": "2018"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281356803,imi:00100000005A8639",
+        "channelId": "0063",
+        "title": "De wereld draait door",
+        "startTime": 1519840800,
+        "endTime": 1519844400,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs37510974",
+        "episodeNumber": 281356803,
+        "shortDescription": "Live talkshow discussing news in politics, science and arts. You will be treated to live music performances, amusing tv-snippets, the Jakhalzen and LuckyTV.",
+        "longDescription": "Live talkshow discussing news in politics, science and arts. You will be treated to live music performances, amusing tv-snippets, the Jakhalzen and LuckyTV.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/37510974.l.4ec07b1cbafb43a89ae3e25e78bc631292bcb01d.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/37510974.p.fa1911bfa18408a4659ebd17b20d15f473508155.jpg",
+        "genres": [
+            "Current Affairs"
+        ],
+        "productionDate": "2018"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281564886,imi:00100000005A8638",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519844400,
+        "endTime": 1519846500,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36256955",
+        "episodeNumber": 281564886,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36256955.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36256955.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ]
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281601570,imi:00100000005A8637",
+        "channelId": "0063",
+        "title": "Tussen kunst en kitsch",
+        "startTime": 1519846500,
+        "endTime": 1519849500,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2F275484671",
+        "seriesName": "Singer Laren",
+        "episodeNumber": 6,
+        "parentSeriesId": "crid:~~2F~~2Fbds.tv~~2F37395880",
+        "shortDescription": "Curious objects are valued at Singer Laren.",
+        "longDescription": "Curious objects are valued at Singer Laren.",
+        "directors": [
+            "Han Budding"
+        ],
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/275484671.l.df1ecb36451eaf7b03c3e02c525dfcc519405da9.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/275484671.p.8c7a1ae4167cef5a6ea9e1e589845e1ee753d3a3.jpg",
+        "genres": [
+            "Interests"
+        ],
+        "productionDate": "2017"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F282787331,imi:00100000005AC8E3",
+        "channelId": "0063",
+        "title": "Eén van de Acht",
+        "startTime": 1519849500,
+        "endTime": 1519855500,
+        "replayTVMinAge": 0,
+        "shortDescription": "Entertainment. A special return of Mies Bouwman's legendary game show.",
+        "longDescription": "Entertainment. A special return of Mies Bouwman's legendary game show.",
+        "countryOfOrigin": "NL",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/20563126828.p.jpg",
+        "genres": [
+            "Game Show"
+        ]
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281603508,imi:00100000005A8635",
+        "channelId": "0063",
+        "title": "Jinek",
+        "startTime": 1519855500,
+        "endTime": 1519859100,
+        "minimumAge": 0,
+        "replayTVMinAge": 0,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs95348481",
+        "episodeNumber": 281603508,
+        "shortDescription": "Talkshow. With a mix of human interest and discussions about current affairs.",
+        "longDescription": "Talkshow. With a mix of human interest and discussions about current affairs. | Kijkwijzer: All ages.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/95348481.l.79eedcc03898761f9ba857b746a6a8533f070f7c.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/95348481.p.949601411ae580ba050f7cf595aa59436c755b53.jpg",
+        "genres": [
+            "Talk Show"
+        ],
+        "productionDate": "2017"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281454979,imi:00100000005A8634",
+        "channelId": "0063",
+        "title": "NOS Journaal",
+        "startTime": 1519859100,
+        "endTime": 1519860000,
+        "replayTVMinAge": 0,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs36652793",
+        "seriesName": "NOS Journaal",
+        "episodeNumber": 281454979,
+        "shortDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "longDescription": "The latest national and international news from NOS, followed by the weather forecast.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652793.l.a1fd400eee826ed8bdb1a2ecc86633966fe06a6e.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/36652793.p.8b3b986578fcc002326ea7f19879266b4e9a2945.jpg",
+        "genres": [
+            "News"
+        ],
+        "productionDate": "2018"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F280421672,imi:00100000005A8633",
+        "channelId": "0063",
+        "title": "NOS Sport",
+        "startTime": 1519860000,
+        "endTime": 1519862100,
+        "replayTVMinAge": 0,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs254657623",
+        "seriesName": "WK Baanwielrennen",
+        "episodeNumber": 280421672,
+        "shortDescription": "Live sports coverage.",
+        "longDescription": "Live sports coverage.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/254657623.l.945856f2b01bc343e2d619dc3fc714df2e52e623.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/254657623.p.1408c931762cfd685e929198f3e36da26db672fa.jpg",
+        "genres": [
+            "Sport",
+            "Cycling"
+        ],
+        "productionDate": "2018"
+    },
+    {
+        "eventId": "crid:~~2F~~2Fbds.tv~~2F281603508,imi:00100000005A8632",
+        "channelId": "0063",
+        "title": "Jinek",
+        "startTime": 1519862100,
+        "endTime": 1519865700,
+        "minimumAge": 0,
+        "replayTVMinAge": 0,
+        "seriesId": "crid:~~2F~~2Fbds.tv~~2Fs95348481",
+        "episodeNumber": 281603508,
+        "shortDescription": "Talkshow. With a mix of human interest and discussions about current affairs.",
+        "longDescription": "Talkshow. With a mix of human interest and discussions about current affairs. | Kijkwijzer: All ages.",
+        "countryOfOrigin": "NL",
+        "wall": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/95348481.l.79eedcc03898761f9ba857b746a6a8533f070f7c.jpg",
+        "poster": "https://staticqbr-nl-lab5a.lab.cdn.dmdsdp.com/image-service/ImagesEPG/EventImages/95348481.p.949601411ae580ba050f7cf595aa59436c755b53.jpg",
+        "genres": [
+            "Talk Show"
+        ],
+        "productionDate": "2017"
+    }
+]

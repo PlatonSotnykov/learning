@@ -1,0 +1,37 @@
+[
+    {
+        "channelId": "0061",
+        "name": "Channel1",
+        "channelNumber": 1
+    },
+    {
+        "channelId": "0062",
+        "name": "Channel2",
+        "channelNumber": 2
+    },
+    {
+        "channelId": "0063",
+        "name": "Channel3",
+        "channelNumber": 3
+    },
+    {
+        "channelId": "0064",
+        "name": "Channel4",
+        "channelNumber": 4
+    },
+    {
+        "channelId": "0065",
+        "name": "Channel5",
+        "channelNumber": 5
+    },
+    {
+        "channelId": "0066",
+        "name": "Channel6",
+        "channelNumber": 6
+    },
+    {
+        "channelId": "0067",
+        "name": "Channel7",
+        "channelNumber": 7
+    }
+]
