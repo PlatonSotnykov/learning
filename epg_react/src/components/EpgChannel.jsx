@@ -1,9 +1,9 @@
-// import React from 'react';
+import React from 'react';
 
 const EpgChannel = (props) => {
     const { number, name } = props;
 
-    return `${number}: ${name}`;
+    return <div> { `${number}: ${name}` } </div>;
 };
 
 export default EpgChannel;

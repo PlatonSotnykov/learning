@@ -1,7 +1,9 @@
-// import React from 'react';
+import React from 'react';
 
 const EpgTimeLine = (props) => {
-    return 'EpgTimeLine';
+    const { startTime, timeFrameDuration, timeStep } = props;
+
+    return <div> EpgTimeLine </div>;
 };
 
 export default EpgTimeLine;

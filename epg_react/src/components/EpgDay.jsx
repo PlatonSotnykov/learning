@@ -1,7 +1,9 @@
-// import React from 'react';
+import React from 'react';
 
 const EpgDay = (props) => {
-    return 'EpgDay';
+    const { startTime } = props;
+
+    return <div> EpgDay </div>;
 };
 
 export default EpgDay;
