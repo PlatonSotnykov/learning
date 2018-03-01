@@ -15,7 +15,7 @@ const Epg = (props) => {
                 <EpgDay startTime = { startTime } />
                 <EpgTimeLine startTime = { startTime } timeFrameDuration = { timeFrameDuration } timeStep = { timeStep } />
             </EpgRow>
-            { props.channels.map((channel) => {
+            { channels.map((channel) => {
                 const { channelId, name, channelNumber, events } = channel;
 
                 return (

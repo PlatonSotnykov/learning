@@ -50,10 +50,9 @@ function filterEvents(channels, startTime, duration) {
         channel.events = channel.events.filter((event) => {
             return (event.endTime > startTime && event.startTime < startTime)
                 || (event.startTime < endTime && event.endTime > endTime)
-                || (event.startTime >= startTime && event.endTime >= endTime);
+                || (event.startTime >= startTime && event.endTime <= endTime);
         });
     });
-    return channels;
 }
 
 class App extends Component {
