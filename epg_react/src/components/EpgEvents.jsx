@@ -1,11 +1,12 @@
 import React from 'react';
-import EpgEvent from './EpgEvent'
+import EpgEvent from './EpgEvent';
+import './Epg.css';
 
 const EpgEvents = (props) => {
     const { events, startTime, timeFrameDuration } = props;
 
     return (
-        <div>
+        <div className = 'epg-right epg-container'>
             { events.map((event) => {
                 const { eventId, title } = event;
 

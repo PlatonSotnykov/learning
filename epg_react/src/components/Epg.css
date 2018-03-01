@@ -1,0 +1,27 @@
+.epg-left {
+    width: 20%;
+}
+
+.epg-right {
+    width: 80%;
+}
+
+.epg-container {
+    display: flex;
+}
+
+.epg-grid {
+    width: 1280px;
+    height: 720px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.epg-cell {
+    height: 90px;
+    border: 1px solid white;
+    border-width: 1px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}

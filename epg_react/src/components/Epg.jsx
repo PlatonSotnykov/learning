@@ -1,11 +1,8 @@
 import React from 'react';
-
-import Grid from './Grid';
-import Row from './Row';
-
+import EpgGrid from './EpgGrid';
+import EpgRow from './EpgRow';
 import EpgDay from './EpgDay';
 import EpgTimeLine from './EpgTimeLine';
-
 import EpgChannel from './EpgChannel';
 import EpgEvents from './EpgEvents';
 
@@ -13,22 +10,22 @@ const Epg = (props) => {
     const { channels, timeFrameDuration, timeStep, startTime } = props;
 
     return (
-        <Grid>
-            <Row>
+        <EpgGrid>
+            <EpgRow>
                 <EpgDay startTime = { startTime } />
                 <EpgTimeLine startTime = { startTime } timeFrameDuration = { timeFrameDuration } timeStep = { timeStep } />
-            </Row>
+            </EpgRow>
             { props.channels.map((channel) => {
                 const { channelId, name, channelNumber, events } = channel;
 
                 return (
-                    <Row key = { channelId } >
+                    <EpgRow key = { channelId } >
                         <EpgChannel number = { channelNumber } name = { name } />
                         <EpgEvents events = { events } startTime = { startTime } timeFrameDuration = { timeFrameDuration } />
-                    </Row>
+                    </EpgRow>
                 );
             }) }
-        </Grid>
+        </EpgGrid>
     );
 };
 

@@ -1,10 +1,11 @@
 import React from 'react';
+import './Epg.css';
 // import PropTypes from 'prop-types'
 
 // import Row from './Row';
 
-const Grid = (props) => {
-    return <div> { props.children } </div>;
+const EpgGrid = (props) => {
+    return <div className = 'epg-grid'> { props.children } </div>;
 };
 
 // Grid.propTypes = {
@@ -14,4 +15,4 @@ const Grid = (props) => {
 //     ])
 // };
 
-export default Grid;
+export default EpgGrid;
