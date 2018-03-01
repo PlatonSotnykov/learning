@@ -10,18 +10,21 @@ import EpgChannel from './EpgChannel';
 import EpgEvents from './EpgEvents';
 
 const Epg = (props) => {
+    const { channels, timeFrameDuration, timeStep, startTime } = props;
+
     return (
         <Grid>
             <Row>
-                <EpgDay startTime = { props.startTime } />
-                <EpgTimeLine startTime = { props.startTime } timeFrameDuration = { props.timeFrameDuration } />
+                <EpgDay startTime = { startTime } />
+                <EpgTimeLine startTime = { startTime } timeFrameDuration = { timeFrameDuration } timeStep = { timeStep } />
             </Row>
             { props.channels.map((channel) => {
+                const { channelId, name, channelNumber, events } = channel;
+
                 return (
-                    <Row key = { channel.id } >
-                        <EpgChannel id = { channel.id } number = { channel.number } name = { channel.name } />
-                        <EpgEvents events = { channel.events } startTime = { props.startTime }
-                            timeFrameDuration = { props.timeFrameDuration } />
+                    <Row key = { channelId } >
+                        <EpgChannel number = { channelNumber } name = { name } />
+                        <EpgEvents events = { events } startTime = { startTime } timeFrameDuration = { timeFrameDuration } />
                     </Row>
                 );
             }) }

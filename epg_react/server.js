@@ -36,6 +36,11 @@ const PORT = 3030;
 
 const app = express();
 
+app.use('*', (req, res, next) => {
+    res.set('Access-Control-Allow-Origin', '*');
+    next();
+});
+
 app.get('/channels', (req, res) => {
     console.log('Requesting channels');
     res.status(200).json(parsedChannelsData);
