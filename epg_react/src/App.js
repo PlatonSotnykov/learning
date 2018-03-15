@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Epg from './components/Epg';
+import { Route, Switch } from 'react-router-dom';
 
 const EPG_DATA_START_TIME = 1519772400;
 const EPG_DATA_END_TIME = 1519858800;
@@ -67,6 +68,7 @@ class App extends Component {
         // const now = ~~(Date.now() / 1000);
         const now = ~~((EPG_DATA_START_TIME + EPG_DATA_END_TIME) / 2);
         this.state.startTime = now - (now % timeStep);
+        this.renderGuide = this.renderGuide.bind(this);
     }
 
     componentDidMount() {
@@ -76,7 +78,7 @@ class App extends Component {
         });
     }
 
-    render() {
+    renderGuide() {
         const { channels, timeFrameDuration, timeStep, startTime } = this.state;
 
         return <Epg
@@ -85,6 +87,15 @@ class App extends Component {
             timeFrameDuration = { timeFrameDuration }
             timeStep = { timeStep }
         />;
+    }
+
+    render() {
+        return (
+            <Switch>
+                <Route exact path="/guide" render={ this.renderGuide } />
+                <Route render={ () => 'Page not found' } />
+            </Switch>
+        );
     }
 }
 
