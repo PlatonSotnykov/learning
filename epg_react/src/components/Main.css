@@ -1,0 +1,8 @@
+.main{
+    width: 1280px;
+    height: 720px;
+    background-color: darkblue;
+    color: gray;
+    overflow: hidden;
+    text-align: center;
+}

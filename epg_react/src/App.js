@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import Main from './components/Main';
 import Epg from './components/Epg';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Redirect, Switch } from 'react-router-dom';
 
 const EPG_DATA_START_TIME = 1519772400;
 const EPG_DATA_END_TIME = 1519858800;
@@ -65,7 +66,6 @@ class App extends Component {
             timeFrameDuration: 2 * 3600,
             timeStep
         };
-        // const now = ~~(Date.now() / 1000);
         const now = ~~((EPG_DATA_START_TIME + EPG_DATA_END_TIME) / 2);
         this.state.startTime = now - (now % timeStep);
         this.renderGuide = this.renderGuide.bind(this);
@@ -76,6 +76,10 @@ class App extends Component {
             filterEvents(channels, this.state.startTime, this.state.timeFrameDuration);
             this.setState({ channels });
         });
+    }
+
+    renderMain() {
+        return <Main />;
     }
 
     renderGuide() {
@@ -92,8 +96,9 @@ class App extends Component {
     render() {
         return (
             <Switch>
-                <Route exact path="/guide" render={ this.renderGuide } />
-                <Route render={ () => 'Page not found' } />
+                <Route exact path = '/main' render={ this.renderMain } />
+                <Redirect exact from = '/' to = '/main' />
+                <Route exact path = '/guide' render={ this.renderGuide } />
             </Switch>
         );
     }

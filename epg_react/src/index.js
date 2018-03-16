@@ -2,15 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { BrowserRouter } from 'react-router-dom';
+import { Router } from 'react-router-dom';
 import Mousetrap from 'mousetrap';
+import { createBrowserHistory } from 'history';
 
-Mousetrap.bind('g', () => { console.log('[Guide]') });
+const history = createBrowserHistory();
+
+Mousetrap.bind('g', () => { history.push('/guide'); });
+Mousetrap.bind('m', () => { history.push('/main'); });
 
 const AppRouter = () => (
-    <BrowserRouter>
+    <Router history = { history }>
         <App />
-    </BrowserRouter>
+    </Router>
 );
 
 ReactDOM.render(<AppRouter />, document.getElementById('root'));
