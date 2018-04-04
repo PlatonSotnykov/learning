@@ -5,6 +5,7 @@ import App from './App';
 import { Router } from 'react-router-dom';
 import Mousetrap from 'mousetrap';
 import { createBrowserHistory } from 'history';
+import lineup from './models/lineup';
 
 const history = createBrowserHistory();
 
@@ -17,4 +18,7 @@ const AppRouter = () => (
     </Router>
 );
 
-ReactDOM.render(<AppRouter />, document.getElementById('root'));
+lineup.initialize()
+    .then(() => {
+        ReactDOM.render(<AppRouter />, document.getElementById('root'));
+    });

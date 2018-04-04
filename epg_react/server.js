@@ -52,6 +52,7 @@ app.use(express.json({ strict: false }));
 app.use('*', (req, res, next) => {
     res.set('Access-Control-Allow-Origin', '*');
     res.set('Access-Control-Allow-Methods', 'PUT');
+    res.set('Access-Control-Allow-Headers', 'Content-Type');
     // A hack to handle 'OPTIONS' request sent by browser for CORS requests
     (req.method === 'OPTIONS') ? res.sendStatus(200) : next();
 });
