@@ -32,9 +32,22 @@ channelIds.forEach((channelId) => {
     }
 });
 
+function filterEvents(events, startTime, duration) {
+    const endTime = startTime + duration;
+
+    return events.filter((event) => {
+        return (event.endTime > startTime && event.startTime < startTime)
+            || (event.startTime < endTime && event.endTime > endTime)
+            || (event.startTime >= startTime && event.endTime <= endTime);
+    });
+}
+
 const PORT = 3030;
 
 const app = express();
+
+// parses JSON body
+app.use(express.json({ strict: false }));
 
 app.use('*', (req, res, next) => {
     res.set('Access-Control-Allow-Origin', '*');
@@ -46,12 +59,19 @@ app.get('/channels', (req, res) => {
     res.status(200).json(parsedChannelsData);
 });
 
-app.get('/events/:channelId', (req, res) => {
+app.put('/events/:channelId', (req, res) => {
     const channelId = req.params.channelId;
     console.log('Requesting events for the channel', channelId);
     const events = channelEventsMap.get(channelId);
     if (events) {
-        res.status(200).json(events);
+        const startTime = req.body.startTime;
+        const duration = req.body.duration;
+
+        if (typeof(startTime) !== 'number' || typeof(duration) !== 'number') {
+            res.status(400).send('Bad request');
+        } else {
+            res.status(200).json(filterEvents(events, startTime, duration));
+        }
     } else {
         res.status(400).send('Bad request');
     }
