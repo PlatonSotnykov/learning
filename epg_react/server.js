@@ -51,14 +51,32 @@ app.use(express.json({ strict: false }));
 
 app.use('*', (req, res, next) => {
     res.set('Access-Control-Allow-Origin', '*');
-    next();
+    res.set('Access-Control-Allow-Methods', 'PUT');
+    // A hack to handle 'OPTIONS' request sent by browser for CORS requests
+    (req.method === 'OPTIONS') ? res.sendStatus(200) : next();
 });
 
-app.get('/channels', (req, res) => {
+/**
+ * Retrieves channels data
+ * @param {[]} [channelIds] Array of ids of the channels to be retrieved
+ * When 'channelIds' is not provided retrieves all channels data
+ */
+app.put('/channels', (req, res) => {
+    const channelIds = req.body;
+
     console.log('Requesting channels');
-    res.status(200).json(parsedChannelsData);
+    res.status(200).json(!(Array.isArray(channelIds) && channelIds.length) ? parsedChannelsData : parsedChannelsData.filter((channel) => {
+        return (channelIds.includes(channel.channelId));
+    }));
 });
 
+/**
+ * Retrieves events data for the specified channel
+ * @param {Object} [params]
+ * @param {number} params.startTime - start time of events frame
+ * @param {number} params.duration - duration of events frame
+ * When 'params' is not provided all events are returned
+ */
 app.put('/events/:channelId', (req, res) => {
     const channelId = req.params.channelId;
     console.log('Requesting events for the channel', channelId);
@@ -67,19 +85,19 @@ app.put('/events/:channelId', (req, res) => {
         const startTime = req.body.startTime;
         const duration = req.body.duration;
 
-        if (typeof(startTime) !== 'number' || typeof(duration) !== 'number') {
-            res.status(400).send('Bad request');
-        } else {
+        if (typeof(startTime) === 'number' || typeof(duration) === 'number') {
             res.status(200).json(filterEvents(events, startTime, duration));
+        } else {
+            res.status(200).json(events);
         }
     } else {
-        res.status(400).send('Bad request');
+        res.sendStatus(400);
     }
 });
 
 app.all('*', (req, res) => {
     console.log('Not found', req.path);
-    res.status(404).send('Not found');
+    res.sendStatus(404);
 });
 
 app.listen(PORT, () => {

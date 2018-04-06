@@ -10,7 +10,9 @@ function fetchChannels() {
     const port = 3030;
     const getChannels = '/channels';
 
-    return fetch(`http://localhost:${port}${getChannels}`).then((response) => {
+    return fetch(`http://localhost:${port}${getChannels}`, {
+        method: 'PUT',
+    }).then((response) => {
         if (response.ok) {
             return response.json().then((channels) => {
                 const getEvents = '/events/{channelId}';
@@ -21,7 +23,9 @@ function fetchChannels() {
                 channels.forEach((channel) => {
                     const channelId = channel.channelId;
 
-                    eventsPromises.push(fetch(url.replace('{channelId}', channelId)));
+                    eventsPromises.push(fetch(url.replace('{channelId}', channelId), {
+                        method: 'PUT'
+                    }));
                     channelsMap.set(channelId, channel);
                 });
 
