@@ -6,31 +6,52 @@ const DATA_PATH = './data';
 const CHANNELS_FILE = 'channels.json';
 const EVENTS_FILE = 'events_{channelId}.json';
 
-let parsedChannelsData;
+let channels;
 
+// Read channels data
 const filePath = path.join(DATA_PATH, CHANNELS_FILE);
 try {
     const channelsData = fs.readFileSync(filePath, 'utf8');
-    parsedChannelsData = JSON.parse(channelsData);
+    channels = JSON.parse(channelsData);
 } catch (e) {
     console.log(`Error reading and parsing channels file "${filePath}"`, e);
     process.exit(1);
 }
+const channelIds = channels.map(channel => channel.channelId);
 
-const channelEventsMap = new Map();
-const channelIds = parsedChannelsData.map(channel => channel.channelId);
+// Helpers
+function readJSONFile(filePath) {
+    return new Promise((resolve, reject) => {
+        fs.readFile(filePath, 'utf8', (err, data) => {
+            if (err) {
+                reject(err);
+            } else {
+                try {
+                    const jsonContent = data ? JSON.parse(data) : null;
+                    resolve(jsonContent);
+                } catch (err) {
+                    console.log(`Error parsing events file "${filePath}"`, err);
+                    reject(err);
+                }
+            }
+        });
+    });
+}
 
-channelIds.forEach((channelId) => {
-    const filePath = path.join(DATA_PATH, EVENTS_FILE.replace('{channelId}', channelId));
-    try {
-        const eventsData = fs.readFileSync(filePath, 'utf8');
-        const parsedEventsData = JSON.parse(eventsData);
-        channelEventsMap.set(channelId, parsedEventsData);
-    } catch (e) {
-        console.log(`Error reading and parsing events file "${filePath}"`, e);
-        channelEventsMap.set(channelId, []);
-    }
-});
+const dayLength = 24 * 3600;
+
+function getFileNames(channelId, startTime, duration) {
+    let dayStart = startTime - startTime % dayLength;
+    const endTime = startTime + duration;
+    const files = [];
+
+    do {
+        files.push(`${channelId}_${dayStart}-${dayStart + dayLength}.json`);
+        dayStart += dayLength;
+    } while (endTime > dayStart);
+
+    return files;
+}
 
 function filterEvents(events, startTime, duration) {
     const endTime = startTime + duration;
@@ -65,8 +86,7 @@ app.use('*', (req, res, next) => {
 app.put('/channels', (req, res) => {
     const channelIds = req.body;
 
-    console.log('Requesting channels');
-    res.status(200).json(!(Array.isArray(channelIds) && channelIds.length) ? parsedChannelsData : parsedChannelsData.filter((channel) => {
+    res.status(200).json(!(Array.isArray(channelIds) && channelIds.length) ? channels : channels.filter((channel) => {
         return (channelIds.includes(channel.channelId));
     }));
 });
@@ -80,24 +100,45 @@ app.put('/channels', (req, res) => {
  */
 app.put('/events/:channelId', (req, res) => {
     const channelId = req.params.channelId;
-    console.log('Requesting events for the channel', channelId);
-    const events = channelEventsMap.get(channelId);
-    if (events) {
-        const startTime = req.body.startTime;
-        const duration = req.body.duration;
 
-        if (typeof(startTime) === 'number' || typeof(duration) === 'number') {
-            res.status(200).json(filterEvents(events, startTime, duration));
-        } else {
-            res.status(200).json(events);
-        }
-    } else {
-        res.sendStatus(400);
+    if (!channelIds.includes(channelId)) {
+        return res.sendStatus(400);
     }
+
+    const startTime = req.body.startTime;
+    const duration = req.body.duration;
+
+    if (typeof(startTime) !== 'number' || typeof(duration) !== 'number') {
+        return res.sendStatus(400);
+    }
+
+    const fileNames = getFileNames(channelId, startTime, duration);
+
+    if (!fileNames.length) {
+        return res.status(200).json([]);
+    }
+
+    const readPromises = [];
+
+    fileNames.forEach(fileName => readPromises.push(readJSONFile(path.join(DATA_PATH, fileName))));
+    Promise.all(readPromises)
+        .then((results) => {
+            let events = [];
+
+            results.forEach((result) => {
+                if (result) {
+                    events = events.concat(result.events);
+                }
+            });
+            res.status(200).json(filterEvents(events, startTime, duration));
+        })
+        .catch((e) => {
+            console.log('Error reading events file', e);
+            res.status(200).json([]);
+        });
 });
 
 app.all('*', (req, res) => {
-    console.log('Not found', req.path);
     res.sendStatus(404);
 });
 

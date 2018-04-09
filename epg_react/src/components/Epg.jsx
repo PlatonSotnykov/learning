@@ -15,10 +15,7 @@ const PORT = 3030;
 // Guide grid parameters (for now hard-coded)
 const timeFrameDuration = 2 * 3600;
 const timeStep = 0.5 * 3600;
-// const maxChannels = 7;
-
-const EPG_DATA_START_TIME = 1519779600;
-// const EPG_DATA_END_TIME = 1519858800;
+const maxChannels = 7;
 
 const Epg = (props) => {
     const { startTime, channels, events } = props;
@@ -47,12 +44,14 @@ function controlledEpg(Epg) {
     return class ControlledEpg extends React.Component {
         constructor(props) {
             super(props);
+
+            const now = ~~(Date.now() / 1000);
+
             this.onKeyPress = this.onKeyPress.bind(this);
             this.keys = ['left', 'right', 'up', 'down'];
             this.state = {
-                // startTime: ~~(Date.now() / 1000),
-                startTime: EPG_DATA_START_TIME,
-                channels: lineup.getChannels(),
+                startTime: now - now % timeStep,
+                channels: lineup.getChannels().slice(0, maxChannels),
                 events: {}
             };
         }
