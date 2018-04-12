@@ -4,7 +4,7 @@ import './Epg.css';
 const EpgDay = (props) => {
     // const { startTime } = props;
 
-    return <div className = 'epg-cell epg-left'>Today</div>;
+    return <div className = 'epg-cell epg-left epg-day'>Today</div>;
 };
 
 export default EpgDay;

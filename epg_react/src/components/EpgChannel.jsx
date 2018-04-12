@@ -5,7 +5,7 @@ const EpgChannel = (props) => {
     const { number, name } = props;
 
     return (
-        <div className = 'epg-left epg-container'>
+        <div className = 'epg-left epg-container epg-channel'>
             <div className = 'epg-cell epg-left'> {number} </div>
             <div className = 'epg-cell epg-right'> {name} </div>
         </div>

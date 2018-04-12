@@ -1,3 +1,15 @@
+.epg-grid {
+    width: 1280px;
+    height: 720px;
+    color: white;
+    background-color:  rgb(150, 150, 150);
+    overflow: hidden;
+}
+
+.epg-container {
+    display: flex;
+}
+
 .epg-left {
     width: 20%;
 }
@@ -6,21 +18,17 @@
     width: 80%;
 }
 
-.epg-container {
-    display: flex;
+.epg-day, .epg-time {
+    background-color: rgb(70, 70, 70);
 }
 
-.epg-grid {
-    width: 1280px;
-    height: 720px;
-    background-color: black;
-    color: white;
-    overflow: hidden;
+.epg-channel {
+    background-color:  rgb(100, 100, 100);
 }
 
 .epg-cell {
     height: 90px;
-    border: 1px solid white;
+    border: 1px solid black;
     border-width: 1px;
     padding: 10px;
     box-sizing: border-box;

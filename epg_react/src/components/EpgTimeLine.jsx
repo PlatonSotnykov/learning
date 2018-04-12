@@ -25,7 +25,7 @@ const EpgTimeLine = (props) => {
 
     let time = startTime;
     while (time < startTime + timeFrameDuration) {
-        timeLine.push(<div key = { time } style = { style } className = 'epg-cell'>
+        timeLine.push(<div key = { time } style = { style } className = 'epg-cell epg-time'>
             { formatTime(time) }
         </div>);
         time += timeStep;
