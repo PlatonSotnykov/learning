@@ -7,7 +7,7 @@ const EpgEvents = (props) => {
 
     return (
         <div className = 'epg-right epg-container'>
-            { events && events.map((event) => {
+            {events && events.map((event) => {
                 const { eventId, title, startTime: eventStartTime, endTime: eventEndTime } = event;
                 const endTime = startTime + timeFrameDuration;
                 let size;
@@ -20,8 +20,14 @@ const EpgEvents = (props) => {
                     size = (endTime - eventStartTime) / timeFrameDuration;
                 }
 
-                return <EpgEvent key = { eventId } title = { title } size = { size } />;
-            }) }
+                return <EpgEvent
+                    key = {eventId}
+                    title = {title}
+                    startTime = {eventStartTime}
+                    endTime = {eventEndTime}
+                    size = {size}
+                />;
+            })}
         </div>
     );
 };
