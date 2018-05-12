@@ -56,11 +56,7 @@ function getFileNames(channelId, startTime, duration) {
 function filterEvents(events, startTime, duration) {
     const endTime = startTime + duration;
 
-    return events.filter((event) => {
-        return (event.endTime > startTime && event.startTime < startTime)
-            || (event.startTime < endTime && event.endTime > endTime)
-            || (event.startTime >= startTime && event.endTime <= endTime);
-    });
+    return events.filter(event => (event.endTime > startTime) && (event.startTime < endTime));
 }
 
 const PORT = 3030;
@@ -123,14 +119,15 @@ app.put('/events/:channelId', (req, res) => {
     fileNames.forEach(fileName => readPromises.push(readJSONFile(path.join(DATA_PATH, fileName))));
     Promise.all(readPromises)
         .then((results) => {
-            let events = [];
+            const events = new Map();
 
             results.forEach((result) => {
                 if (result) {
-                    events = events.concat(result.events);
+                    // Put all events into the Map to get rid of duplicated events
+                    result.events.forEach(event => events.set(event.eventId, event));
                 }
             });
-            res.status(200).json(filterEvents(events, startTime, duration));
+            res.status(200).json(filterEvents([...events.values()], startTime, duration));
         })
         .catch((e) => {
             console.log('Error reading events file', e);
