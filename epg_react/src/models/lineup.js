@@ -2,7 +2,9 @@ const PORT = 3030;
 
 const lineup = {
     _channels: [],
-    initialize: () => {
+    _currentChannelIdx: 0,
+    initialize: function() {
+        this._currentChannelIdx = 0;
         return fetch(`http://localhost:${PORT}/channels`, {
             method: 'PUT',
         }).then((response) => {
@@ -15,7 +17,12 @@ const lineup = {
             return [];
         });
     },
-    getChannels: () => this._channels
+    getChannels: function() {
+        return this._channels;
+    },
+    getCurrentChannelIdx: function() {
+        return this._currentChannelIdx;
+    }
 };
 
 export default lineup;

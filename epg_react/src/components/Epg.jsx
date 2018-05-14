@@ -51,17 +51,22 @@ function controlledEpg(Epg) {
             this.keys = ['left', 'right', 'up', 'down'];
             this.state = {
                 startTime: now - now % timeStep,
-                channels: lineup.getChannels().slice(0, maxChannels),
+                currentChannelIdx: lineup.getCurrentChannelIdx(),
+                channels: this.getChannels(lineup.getCurrentChannelIdx()),
                 events: {}
             };
         }
 
-        fetchEvents(startTime) {
+        getChannels(currentChannelIdx) {
+            return lineup.getChannels().slice(currentChannelIdx, currentChannelIdx + maxChannels);
+        }
+
+        fetchEvents(startTime, channels) {
             const url = `http://localhost:${PORT}/events/{channelId}`;
             const eventsPromises = [];
             const eventsMap = {};
 
-            this.state.channels.forEach((channel) => {
+            channels.forEach((channel) => {
                 eventsPromises.push(fetch(url.replace('{channelId}', channel.channelId), {
                     method: 'PUT',
                     body: JSON.stringify({
@@ -94,7 +99,7 @@ function controlledEpg(Epg) {
                     this.setState((prevState, props) => {
                         const startTime = prevState.startTime - timeFrameDuration;
 
-                        this.fetchEvents(startTime);
+                        this.fetchEvents(startTime, prevState.channels);
                         return { startTime };
                     });
                     break;
@@ -102,8 +107,26 @@ function controlledEpg(Epg) {
                     this.setState((prevState, props) => {
                         const startTime = prevState.startTime + timeFrameDuration;
 
-                        this.fetchEvents(startTime);
+                        this.fetchEvents(startTime, prevState.channels);
                         return { startTime };
+                    });
+                    break;
+                case 'ArrowUp':
+                    this.setState((prevState, props) => {
+                        const currentChannelIdx = prevState.currentChannelIdx - maxChannels;
+                        const channels = this.getChannels(currentChannelIdx);
+
+                        this.fetchEvents(prevState.startTime, channels);
+                        return { currentChannelIdx, channels };
+                    });
+                    break;
+                case 'ArrowDown':
+                    this.setState((prevState, props) => {
+                        const currentChannelIdx = prevState.currentChannelIdx + maxChannels;
+                        const channels = this.getChannels(currentChannelIdx);
+
+                        this.fetchEvents(prevState.startTime, channels);
+                        return { currentChannelIdx, channels };
                     });
                     break;
                 default:
@@ -112,7 +135,7 @@ function controlledEpg(Epg) {
 
         componentDidMount() {
             Mousetrap.bind(this.keys, this.onKeyPress);
-            this.fetchEvents(this.state.startTime);
+            this.fetchEvents(this.state.startTime, this.state.channels);
         }
 
         componentWillUnmount() {
