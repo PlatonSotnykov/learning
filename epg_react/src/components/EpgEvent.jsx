@@ -3,11 +3,15 @@ import './Epg.css';
 
 function formatTime(time) {
     const d = new Date(time * 1000);
-    const hh = '' + d.getHours();
+    let hh = '' + d.getHours();
     let mm = '' + d.getMinutes();
 
+    if (hh.length < 2) {
+        hh = '0' + hh;
+    }
+
     if (mm.length < 2) {
-        mm = mm + '0';
+        mm = '0' + mm;
     }
 
     return hh + ':' + mm;
