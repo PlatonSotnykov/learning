@@ -58,7 +58,48 @@ function controlledEpg(Epg) {
         }
 
         getChannels(currentChannelIdx) {
-            return lineup.getChannels().slice(currentChannelIdx, currentChannelIdx + maxChannels);
+            const allChannels = lineup.getChannels();
+            let channels = allChannels.slice(currentChannelIdx, currentChannelIdx + maxChannels);
+
+            if (channels.length < maxChannels) {
+                channels = channels.concat(allChannels.slice(0, maxChannels - channels.length));
+            }
+            return channels;
+        }
+
+        getNextChannels(currentChannelIdx) {
+            currentChannelIdx = currentChannelIdx + maxChannels;
+            if (currentChannelIdx >= lineup.getChannels().length) {
+                currentChannelIdx = currentChannelIdx - lineup.getChannels().length;
+            }
+            return {
+                currentChannelIdx,
+                channels: this.getChannels(currentChannelIdx)
+            };
+        }
+
+        getPrevChannels(currentChannelIdx) {
+            currentChannelIdx = currentChannelIdx - maxChannels;
+            if (currentChannelIdx < 0) {
+                currentChannelIdx = lineup.getChannels().length + currentChannelIdx;
+            }
+            return {
+                currentChannelIdx,
+                channels: this.getChannels(currentChannelIdx)
+            };
+        }
+
+        ensureEventsAvailability(events, startTime, endTime) {
+            const lastEndTime = events[events.length - 1].endTime;
+
+            if (lastEndTime < endTime) {
+                events.push({
+                    startTime: lastEndTime,
+                    endTime,
+                    fake: true
+                });
+            }
+            return events;
         }
 
         fetchEvents(startTime, channels) {
@@ -85,6 +126,7 @@ function controlledEpg(Epg) {
                 Promise.all(parsingPromises).then((channelsEvents) => {
                     channelsEvents.forEach((events) => {
                         if (events.length) {
+                            this.ensureEventsAvailability(events, startTime, startTime + timeFrameDuration);
                             eventsMap[events[0].channelId] = events;
                         }
                     });
@@ -113,20 +155,18 @@ function controlledEpg(Epg) {
                     break;
                 case 'ArrowUp':
                     this.setState((prevState, props) => {
-                        const currentChannelIdx = prevState.currentChannelIdx - maxChannels;
-                        const channels = this.getChannels(currentChannelIdx);
+                        const newState = this.getPrevChannels(prevState.currentChannelIdx);
 
-                        this.fetchEvents(prevState.startTime, channels);
-                        return { currentChannelIdx, channels };
+                        this.fetchEvents(prevState.startTime, newState.channels);
+                        return newState;
                     });
                     break;
                 case 'ArrowDown':
                     this.setState((prevState, props) => {
-                        const currentChannelIdx = prevState.currentChannelIdx + maxChannels;
-                        const channels = this.getChannels(currentChannelIdx);
+                        const newState = this.getNextChannels(prevState.currentChannelIdx);
 
-                        this.fetchEvents(prevState.startTime, channels);
-                        return { currentChannelIdx, channels };
+                        this.fetchEvents(prevState.startTime, newState.channels);
+                        return newState;
                     });
                     break;
                 default:

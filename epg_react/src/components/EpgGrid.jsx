@@ -5,7 +5,7 @@ import './Epg.css';
 // import Row from './Row';
 
 const EpgGrid = (props) => {
-    return <div className = 'epg-grid'> { props.children } </div>;
+    return <div className = 'epg-grid'> {props.children} </div>;
 };
 
 // Grid.propTypes = {

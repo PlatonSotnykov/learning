@@ -18,15 +18,23 @@ function formatTime(time) {
 }
 
 const EpgEvent = (props) => {
-    const { title, size, startTime, endTime } = props;
+    const { title, size, startTime, endTime, fake } = props;
     const style = {
         width: 100 * size + '%'
     };
+    let className = 'epg-cell epg-event';
 
-    return (<div style = { style } className = 'epg-cell epg-event'>
-        <p>{title}</p>
-        <p>{formatTime(startTime)} - {formatTime(endTime)}</p>
-    </div>);
+    if (fake) {
+        className += ' epg-event-fake';
+    }
+    return (
+        <div style = {style} className = {className}>
+            <p>{!fake ? title : 'No information available'}</p>
+            {!fake &&
+                <p>{formatTime(startTime)} - {formatTime(endTime)}</p>
+            }
+        </div>
+    );
 };
 
 export default EpgEvent;

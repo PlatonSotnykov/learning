@@ -29,10 +29,26 @@ function getDayOfWeek(time) {
     }
 }
 
+function formatDate(time) {
+    const d = new Date(time * 1000);
+    let month = '' + (d.getMonth() + 1);
+
+    if (month.length < 2) {
+        month = '0' + month;
+    }
+
+    return d.getDate() + '.' + month + '.' + d.getFullYear();
+}
+
 const EpgDay = (props) => {
     const { startTime } = props;
 
-    return <div className = 'epg-cell epg-left epg-day'>{getDayOfWeek(startTime)}</div>;
+    return (
+        <div className = 'epg-cell epg-left epg-day'>
+            <p>{getDayOfWeek(startTime)}</p>
+            <p>{formatDate(startTime)}</p>
+        </div>
+    );
 };
 
 export default EpgDay;
